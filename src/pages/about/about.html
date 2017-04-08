@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p>Cette vidéo en anglais utilise la balise <b><u>video</u></b> de HTML, ainsi que des sous-titres à l'aide de la balise <b><u>track</u></b>.<br/>
+    Des sous-titres en français sont disponibles.</p>
+  <video controls poster="assets/img/video-preview.jpg" style="width:100%; height:auto;" preload="metadata">
+       <source src="assets/video/stallman.mp4" type="video/mp4"/>
+       <track label="French" kind="subtitles" srclang="en" src="assets/video/stallman.vtt" default/>
+  </video>
+
+  
+</ion-content>
